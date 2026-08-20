@@ -106,3 +106,43 @@ button:not(:disabled) {
   cursor: pointer;
   filter: none;
 }
+
+
+.delete-btn {
+  width: auto;
+  padding: 8px 12px;
+  background-color: #dc2626;
+  margin: 3px;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+.edit-btn {
+  width: auto;
+  padding: 8px 12px;
+  background-color: #16a34a;
+  margin: 3px;
+}
+
+.edit-btn:hover {
+  background-color: #15803d;
+}
+
+
+.back-btn {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #6b7280;
+}
+
+.back-btn:hover {
+  background-color: #4b5563;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin: 5px 0 0;
+}
